@@ -6,7 +6,7 @@ A simple microservices architecture using Spring Boot, Spring Cloud Gateway, and
 
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   Client    │───▶│ API Gateway │───▶│   Eureka    │───▶│  Services   │
+│   Client    │──▶│ API Gateway │───▶│   Eureka    │───▶│  Services   │
 │  (Browser)  │    │ Port: 8080  │    │ Port: 8761  │    │             │
 │             │    │             │    │             │    │             │
 │   Request   │    │┌───────────┐│    │┌───────────┐│    │┌───────────┐│
